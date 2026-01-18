@@ -1,14 +1,102 @@
 @import "tailwindcss";
 
+
+
 @theme {
-  /* --font-display: "Satoshi", "sans-serif";
-  --breakpoint-3xl: 120rem;
-  --color-avocado-100: oklch(0.99 0 0);
-  --color-avocado-200: oklch(0.98 0.04 113.22);
-  --color-avocado-300: oklch(0.94 0.11 115.03);
-  --color-avocado-400: oklch(0.92 0.19 114.08);
-  --color-avocado-500: oklch(0.84 0.18 117.33);
-  --color-avocado-600: oklch(0.53 0.12 118.34);
-  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
-  --ease-snappy: cubic-bezier(0.2, 0, 0, 1); */
+   --color-neutral-0: #ffffff;
+  --color-neutral-200: #d4d3d9;
+  --color-neutral-300: #acacb7;
+  --color-neutral-600: #3c3b5e;
+  --color-neutral-700: #302f4a;
+  --color-neutral-800: #333250;
+  --color-neutral-900: #02012c;
+  --color-orange-500: #ffb20a;
+  --color-blue-500: #4658d9;
+  --color-blue-700: #2b189c;
+  --font-DMSans: 'DM Sans', sans-serif;
+  --font-Bricolage: 'Bricolage Grotesque', sans-serif
+}
+
+
+* , *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+} 
+
+.text-preset-1 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -2px;
+}
+
+.text-preset-2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-5 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-5-medium {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-6 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-7 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-8 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
 }
