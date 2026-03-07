@@ -1,5 +1,5 @@
 import { Nav } from '../components/nav/nav';
-import { Title } from '../components/Title/Title';
+import { Title } from '../components/title/Title';
 import { ButtonPrimary } from '../components/button/buttonPrimary';
 import { DropdownUnits } from './../components/dropdown/DropdownUnits';
 import { DropdownSearch } from '../components/dropdown/DropdownSearch';
