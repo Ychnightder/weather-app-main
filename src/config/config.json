@@ -1,0 +1,5 @@
+{ 
+    "API_URL_METEO" : "https://api.open-meteo.com/v1/forecast",
+    "API_GEOCODING " : "https://api.open-meteo.com/v1/geocoding?name="
+
+}
