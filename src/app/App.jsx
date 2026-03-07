@@ -1,4 +1,4 @@
-import { Nav } from '../components/nav/nav';
+import { Nav } from '../components/nav/Nav';
 import { Title } from '../components/title/Title';
 // import { ButtonPrimary } from '../components/button/buttonPrimary';
 // import { DropdownUnits } from './../components/dropdown/DropdownUnits';
@@ -16,5 +16,5 @@ function App() {
 		</div>
 	);
 }
- 
+
 export default App;
