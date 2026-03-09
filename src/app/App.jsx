@@ -1,6 +1,7 @@
 import { Title } from '../components/title/Title.jsx';
-import { Search } from '../components/search/Search.jsx';
+// import { Search } from '../components/search/Search';
 import { Nav } from '../components/nav/Nav.jsx';
+import { Search } from './../components/search/Search';
 
 function App() {
 	return (
