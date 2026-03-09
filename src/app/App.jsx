@@ -1,5 +1,5 @@
 import { Title } from '../components/title/Title.jsx';
-// import { Search } from '../components/search/Search.jsx';
+import { Search } from '../components/search/Search.jsx';
 import { Nav } from '../components/nav/Nav.jsx';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 			<Nav />
 			<Title text="How's the sky looking today?" />
 			<div className="w-full flex items-center justify-center">
-				{/* <Search /> */}
+				<Search />
 			</div>
 		</div>
 	);
