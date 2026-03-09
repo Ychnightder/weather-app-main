@@ -27,10 +27,10 @@ export function DropdownUnits() {
 
 	return (
 		<>
-			<div className="w-54 h-103 bg-neutral-800 border border-neutral-600 rounded-xl p-2 transition-transform duration-300">
+			<div className="w-54 h-103 bg-neutral-800 border border-neutral-600 radius-12 p-2 transition-transform duration-300">
 				<button
 					onClick={toggleUnitis}
-					className="w-full text-left cursor-pointer text-neutral-0 bg-neutral-800 hover:bg-neutral-700 p-2 preset-7 rounded-lg">
+					className="w-full text-left cursor-pointer text-neutral-0 bg-neutral-800 hover:bg-neutral-700 p-2 preset-7 radius-12">
 					Switch to {unitis}
 				</button>
 				{dataDropdown.map((item, index) => (
@@ -74,11 +74,11 @@ export function DropdownUnits() {
 							return (
 								<button
 									key={`${index}-${idx}`}
-									className={`flex w-full text-left cursor-pointer text-neutral-0 hover:bg-neutral-700 preset-7 rounded-lg p-2 ${isSelected ? 'bg-neutral-700' : 'bg-neutral-800'}`}
+									className={`flex w-full text-left cursor-pointer text-neutral-0 hover:bg-neutral-700 preset-7 radius-12 p-2 ${isSelected ? 'bg-neutral-700' : 'bg-neutral-800'}`}
 									onClick={handleClick}>
 									{option}
 									{isSelected && (
-										<span className="ml-auto w-5 h-5 rounded-full flex items-center justify-center ">
+										<span className="ml-auto w-5 h-5 radius-full flex items-center justify-center ">
 											<img src={icon} alt="Checkmark" />
 										</span>
 									)}
